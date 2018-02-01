@@ -10,7 +10,7 @@ class Search extends Component {
     return (
       <div className="Search">
       	<form className="form-group row" onSubmit={ this.props.handleSubmit } >
-      		<input className="form-control col col-5 offset-3" type="text" onChange={ this.props.handleChange } />
+      		<input className="form-control col col-6 offset-3" type="text" onChange={ this.props.handleChange } />          
       	</form>
       </div>
     );
